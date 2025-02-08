@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\destr\\source\\repos\\AppLicencas\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3FC727E2-A911-4BC7-88BB-EEB1EF5E62AF}|AppLicencas.csproj|c:\\users\\destr\\source\\repos\\applicencas\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{3FC727E2-A911-4BC7-88BB-EEB1EF5E62AF}|AppLicencas.csproj|C:\\Users\\destr\\source\\repos\\AppLicencas\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{3FC727E2-A911-4BC7-88BB-EEB1EF5E62AF}|AppLicencas.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -11,7 +11,7 @@
       "RelativeMoniker": "D:0:0:{3FC727E2-A911-4BC7-88BB-EEB1EF5E62AF}|AppLicencas.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3FC727E2-A911-4BC7-88BB-EEB1EF5E62AF}|AppLicencas.csproj|C:\\Users\\destr\\source\\repos\\AppLicencas\\cadastrolicencaform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{3FC727E2-A911-4BC7-88BB-EEB1EF5E62AF}|AppLicencas.csproj|c:\\users\\destr\\source\\repos\\applicencas\\cadastrolicencaform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{3FC727E2-A911-4BC7-88BB-EEB1EF5E62AF}|AppLicencas.csproj|solutionrelative:cadastrolicencaform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -42,9 +42,9 @@
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\destr\\source\\repos\\AppLicencas\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\destr\\source\\repos\\AppLicencas\\Form1.cs",
-              "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAfAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\destr\\source\\repos\\AppLicencas\\Form1.cs*",
+              "RelativeToolTip": "Form1.cs*",
+              "ViewState": "AgIAABIAAAAAAAAAAAAUwFIAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-08T01:34:42.432Z",
               "EditorCaption": ""
@@ -55,8 +55,8 @@
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\destr\\source\\repos\\AppLicencas\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\destr\\source\\repos\\AppLicencas\\Form1.cs [Design]",
-              "RelativeToolTip": "Form1.cs [Design]",
+              "ToolTip": "C:\\Users\\destr\\source\\repos\\AppLicencas\\Form1.cs [Design]*",
+              "RelativeToolTip": "Form1.cs [Design]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-08T01:33:35.874Z",
               "EditorCaption": " [Design]"
