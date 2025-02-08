@@ -14,49 +14,71 @@ namespace AppLicencas
     {
         public Form1()
         {
-            InitializeComponent();
             SetupUI();
+            InitializeComponent();
+            
         }
         private void SetupUI()
         {
-            this.Text = "Controle de Licenças";
+            this.Text = "Menu - Controle de Licenças";
             this.Size = new System.Drawing.Size(800, 600);
             this.FormBorderStyle = FormBorderStyle.FixedSingle;
+
             Label title = new Label()
             {
-                Text = "Controle de Licenças",
-                Font = new System.Drawing.Font("Arial", 16, System.Drawing.FontStyle.Bold),
-                AutoSize = true,
-                Location = new System.Drawing.Point(20, 20)
+                Text = "Selecione o Tipo de Licença",
+                Font = new System.Drawing.Font("Arial", 18, System.Drawing.FontStyle.Bold),
+                AutoSize = true
+                
             };
+            title.Location = new System.Drawing.Point(
+                (this.ClientSize.Width - title.Width) / 3,30
+                );
             this.Controls.Add(title);
 
-            TextBox searchBox = new TextBox()
+            Button googleWorkspaceButton = new Button()
             {
-                Text = "Buscar por SERIAL ou Solicitante...",
+                Text = "Cadastrar Licença Google Workspace",
+                
+                Location = new System.Drawing.Point(150, 160),
                 Width = 300,
-                Location = new System.Drawing.Point(20, 60)
+                Height = 40
             };
-            this.Controls.Add(searchBox);
-            DataGridView licenseGrid = new DataGridView()
+            googleWorkspaceButton.Location = new System.Drawing.Point(
+                (this.ClientSize.Width - googleWorkspaceButton.Width) / 2, 160
+                );
+            googleWorkspaceButton.Click += (sender, e) =>
             {
-                Location = new System.Drawing.Point(20, 100),
-                Size = new System.Drawing.Size(750, 300)
+                Form cadastroForm = new CadastroLicencaForm();
+                cadastroForm.ShowDialog();
             };
-            licenseGrid.Columns.Add("ID", "ID");
-            licenseGrid.Columns.Add("Serial", "Serial");
-            licenseGrid.Columns.Add("DataCompra", "Data de Compra");
-            licenseGrid.Columns.Add("Responsavel", "Responsável");
-            licenseGrid.Columns.Add("Solicitante", "Solicitante");
-            this.Controls.Add(licenseGrid);
+            this.Controls.Add(googleWorkspaceButton);
 
-            Button addButton = new Button()
+            Button optionButton1 = new Button()
             {
-                Text = "Adicionar Licença",
-                Location = new System.Drawing.Point(20, 420),
-                Width = 150
+                Text = "Mais opções em breve",
+                Location = new System.Drawing.Point(150, 160),
+                Width = 300,
+                Height = 40,
+                Enabled = false
             };
-            this.Controls.Add(addButton);
+            optionButton1.Location = new System.Drawing.Point(
+                (this.ClientSize.Width - optionButton1.Width) / 2, 210
+                );
+            this.Controls.Add(optionButton1);
+            Button optionButton2 = new Button()
+            {
+                Text = "Mais opções em breve",
+                Location = new System.Drawing.Point(150, 160),
+                Width = 300,
+                Height = 40,
+                Enabled = false
+            };
+            optionButton2.Location = new System.Drawing.Point(
+                (this.ClientSize.Width - optionButton2.Width) / 2, 260
+                );
+            this.Controls.Add(optionButton2);
         }
+
     }
 }
