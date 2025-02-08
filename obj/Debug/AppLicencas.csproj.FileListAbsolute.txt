@@ -1,0 +1,9 @@
+C:\Users\destr\source\repos\AppLicencas\bin\Debug\AppLicencas.exe.config
+C:\Users\destr\source\repos\AppLicencas\bin\Debug\AppLicencas.exe
+C:\Users\destr\source\repos\AppLicencas\bin\Debug\AppLicencas.pdb
+C:\Users\destr\source\repos\AppLicencas\obj\Debug\AppLicencas.csproj.AssemblyReference.cache
+C:\Users\destr\source\repos\AppLicencas\obj\Debug\AppLicencas.Properties.Resources.resources
+C:\Users\destr\source\repos\AppLicencas\obj\Debug\AppLicencas.csproj.GenerateResource.cache
+C:\Users\destr\source\repos\AppLicencas\obj\Debug\AppLicencas.csproj.CoreCompileInputs.cache
+C:\Users\destr\source\repos\AppLicencas\obj\Debug\AppLicencas.exe
+C:\Users\destr\source\repos\AppLicencas\obj\Debug\AppLicencas.pdb
