@@ -15,74 +15,23 @@ namespace AppLicencas
         public Form1()
         {
             InitializeComponent();
-            SetupUI();
-
         }
 
-        private void SetupUI()
+        private void bt2_Click(object sender, EventArgs e)
         {
-            this.Text = "Menu - Controle de Licenças";
-            this.Size = new System.Drawing.Size(800, 600);
-            this.FormBorderStyle = FormBorderStyle.FixedSingle;
+            Enabled = true;
+        }
 
-            Panel panel = new Panel();
-            panel.Dock = DockStyle.Fill;
-            panel.AutoScroll = true;
-            this.Controls.Add(panel);
+        private void bt3_Click(object sender, EventArgs e)
+        {
+            Enabled = true;
+        }
 
-            Label title = new Label()
-            {
-                Text = "Selecione o Tipo de Licença",
-                Font = new System.Drawing.Font("Arial", 18, System.Drawing.FontStyle.Bold),
-                AutoSize = true
-
-            };
-            title.Location = new System.Drawing.Point(
-                (panel.ClientSize.Width - title.Width) / 3, 30
-                );
-            panel.Controls.Add(title);
-
-            Button googleWorkspaceButton = new Button()
-            {
-                Text = "Cadastrar Licença Google Workspace",
-                Location = new System.Drawing.Point(150, 160),
-                Width = 300,
-                Height = 40
-            };
-            googleWorkspaceButton.Location = new System.Drawing.Point(
-                (panel.ClientSize.Width - googleWorkspaceButton.Width) / 2, 160
-                );
-            googleWorkspaceButton.Click += (sender, e) =>
-            {
-                Form cadastroForm = new CadastroLicencaForm();
-                cadastroForm.ShowDialog();
-            };
-            panel.Controls.Add(googleWorkspaceButton);
-
-            Button optionButton1 = new Button()
-            {
-                Text = "Mais opções em breve",
-                Location = new System.Drawing.Point(150, 160),
-                Width = 300,
-                Height = 40,
-                Enabled = false
-            };
-            optionButton1.Location = new System.Drawing.Point(
-                (panel.ClientSize.Width - optionButton1.Width) / 2, 210
-                );
-            panel.Controls.Add(optionButton1);
-            Button optionButton2 = new Button()
-            {
-                Text = "Mais opções em breve",
-                Location = new System.Drawing.Point(150, 160),
-                Width = 300,
-                Height = 40,
-                Enabled = false
-            };
-            optionButton2.Location = new System.Drawing.Point(
-                (panel.ClientSize.Width - optionButton2.Width) / 2, 260
-                );
-            panel.Controls.Add(optionButton2);
+        private void btGoogleWorkspace_Click(object sender, EventArgs e)
+        {
+            Form CadastroLicencaForm = new CadastroLicencaForm();
+            CadastroLicencaForm.ShowDialog();
+            
         }
     }
 }

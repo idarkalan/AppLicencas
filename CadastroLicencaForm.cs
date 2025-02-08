@@ -16,5 +16,15 @@ namespace AppLicencas
         {
             InitializeComponent();
         }
+
+        private void btBuscar_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btCadastrar_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
