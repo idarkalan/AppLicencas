@@ -110,6 +110,7 @@
             this.Controls.Add(this.lbTitulo);
             this.Name = "CadastroLicencaForm";
             this.Text = "Cadastro de Licenças";
+            this.Load += new System.EventHandler(this.CadastroLicencaForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvLicencas)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

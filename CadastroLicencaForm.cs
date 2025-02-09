@@ -26,5 +26,10 @@ namespace AppLicencas
         {
 
         }
+
+        private void CadastroLicencaForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
